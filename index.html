@@ -1,14 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 <body>
+     
+    <header class="center header">
 
+        <div class="stars">
+            <div class="stars__group" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA3NC41MDAwMDAiIGhlaWdodD0iMTEzMC45NTczOTciIHZpZXdCb3g9IjAgMCAxMDc0LjUgMTEzMC45NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+Cgk8ZGVzYz4KCQkJQ3JlYXRlZCB3aXRoIFBpeHNvLgoJPC9kZXNjPgoJPGRlZnMvPgoJPHBhdGggaWQ9IlZlY3RvciA0NzgwIiBkPSJNMjQxLjI5IDMyMy40NUwzMTcuNSA0MTEuODNMMC41IDQ4Ni40NSIgc3Ryb2tlPSIjMjAyMDI3IiBzdHJva2Utb3BhY2l0eT0iMS4wMDAwMDAiIHN0cm9rZS13aWR0aD0iMS4wMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgoJPHBhdGggaWQ9IlZlY3RvciIgZD0iTTcwOC4xOCAzODEuODZDNzE3LjYxIDM4NC40OCA5ODAuMDEgNDk1LjQyIDk4MC4wMSA0OTUuNDJMNzAxLjYxIDUyNS4zTDg3Ny40OSA3NTEuMTFMNjI5LjUzIDU5Ni44Nkw2MDQuMjcgODU4LjMxTDUzNC4zOCA1ODIuOThMMzAxLjQzIDcxMy45NUw0NjEuOSA1MjEuNzJMMTc3LjEzIDUwOC43NEw0NDQuOCA0MjguNDhMMjQ1LjkgMTk5LjQxTDUyNS41MyAzMzAuOTZMNTg5LjUzIDc3LjE0TDYxOC4yNiAzMzEuNUw4NzIuOTggMTU2LjA1TDcwOC4xOCAzODEuODZaIiBmaWxsPSIjQkNFQzMwIiBmaWxsLW9wYWNpdHk9IjEuMDAwMDAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz4KCTxwYXRoIGlkPSJWZWN0b3IiIGQ9Ik05ODAuMDEgNDk1LjQyTDcwMS42MSA1MjUuM0w4NzcuNDkgNzUxLjExTDYyOS41MyA1OTYuODZMNjA0LjI3IDg1OC4zMUw1MzQuMzggNTgyLjk4TDMwMS40MyA3MTMuOTVMNDYxLjkgNTIxLjcyTDE3Ny4xMyA1MDguNzRMNDQ0LjggNDI4LjQ4TDI0NS45IDE5OS40MUw1MjUuNTMgMzMwLjk2TDU4OS41MyA3Ny4xNEw2MTguMjYgMzMxLjVMODcyLjk4IDE1Ni4wNUw3MDguMTggMzgxLjg2QzcxNy42MSAzODQuNDggOTgwLjAxIDQ5NS40MiA5ODAuMDEgNDk1LjQyWiIgc3Ryb2tlPSIjMjAyMDI3IiBzdHJva2Utb3BhY2l0eT0iMS4wMDAwMDAiIHN0cm9rZS13aWR0aD0iMS4wMDAwMDAiLz4KCTxwYXRoIGlkPSJWZWN0b3IgNDc4MSIgZD0iTTIzMS41OCA1ODcuNDVMMzU1LjUgNTg3LjQ1TDIxMy41IDc2Ni40NSIgc3Ryb2tlPSIjMjAyMDI3IiBzdHJva2Utb3BhY2l0eT0iMS4wMDAwMDAiIHN0cm9rZS13aWR0aD0iMS4wMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgoJPHBhdGggaWQ9IlZlY3RvciA0NzgyIiBkPSJNMzcxLjUgNzkxLjVMNDg1LjI2IDcxMi40NUw1OTEuMzggMTEzMC40NiIgc3Ryb2tlPSIjMjAyMDI3IiBzdHJva2Utb3BhY2l0eT0iMS4wMDAwMDAiIHN0cm9rZS13aWR0aD0iMS4wMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgoJPHBhdGggaWQ9IlZlY3RvciA0Nzg4IiBkPSJNNDQ5LjY1IDgwMS40NUwzOTMuNSA4NjAuMjJMNDczLjUgOTI3LjQ1TDQ0OS42NSA4MDEuNDVaIiBmaWxsPSIjQkNFQzMwIiBmaWxsLW9wYWNpdHk9IjEuMDAwMDAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz4KCTxwYXRoIGlkPSJWZWN0b3IgNDc4OCIgZD0iTTQ0OS42NSA4MDEuNDVMNDczLjUgOTI3LjQ1TDM5My41IDg2MC4yMkw0NDkuNjUgODAxLjQ1WiIgc3Ryb2tlPSIjMjAyMDI3IiBzdHJva2Utb3BhY2l0eT0iMS4wMDAwMDAiIHN0cm9rZS13aWR0aD0iMS4wMDAwMDAiLz4KCTxwYXRoIGlkPSJWZWN0b3IgNDc5MSIgZD0iTTQ5MS41IDk5Ni40NUw1MjUuNSAxMTIwLjQ2IiBzdHJva2U9IiMyMDIwMjciIHN0cm9rZS1vcGFjaXR5PSIxLjAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIxLjAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=);"> </div>
+            <div class="stars__right-1" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzcuMDAwMDAwIiBoZWlnaHQ9IjM3LjAwMDAwMCIgdmlld0JveD0iMCAwIDM3IDM3IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KCTxkZXNjPgoJCQlDcmVhdGVkIHdpdGggUGl4c28uCgk8L2Rlc2M+Cgk8ZGVmcy8+Cgk8cGF0aCBpZD0iU3RhciA1IiBkPSJNMTguNSAwTDEzLjUgMTMuNUwwIDE4LjVMMTMuNSAyMy40OUwxOC41IDM3TDIzLjQ5IDIzLjQ5TDM3IDE4LjVMMjMuNDkgMTMuNUwxOC41IDBaIiBmaWxsPSIjQkNFQzMwIiBmaWxsLW9wYWNpdHk9IjEuMDAwMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KCTxwYXRoIGlkPSJTdGFyIDUiIGQ9Ik0xMy41IDEzLjVMMCAxOC41TDEzLjUgMjMuNDlMMTguNSAzN0wyMy40OSAyMy40OUwzNyAxOC41TDIzLjQ5IDEzLjVMMTguNSAwTDEzLjUgMTMuNVpNMTguNSAyLjg4TDE0LjI4IDE0LjI4TDIuODggMTguNUwxNC4yOCAyMi43MUwxOC41IDM0LjExTDIyLjcxIDIyLjcxTDM0LjExIDE4LjVMMjIuNzEgMTQuMjhMMTguNSAyLjg4WiIgZmlsbD0iIzIwMjAyNyIgZmlsbC1vcGFjaXR5PSIxLjAwMDAwMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=);"> </div>
+            <div class="stars__right-2" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODMuMDAwMDAwIiBoZWlnaHQ9IjgzLjAwMDAwMCIgdmlld0JveD0iMCAwIDgzIDgzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KCTxkZXNjPgoJCQlDcmVhdGVkIHdpdGggUGl4c28uCgk8L2Rlc2M+Cgk8ZGVmcy8+Cgk8cGF0aCBpZD0iU3RhciA0IiBkPSJNMzAuMjkgMzAuMjlMMCA0MS41TDMwLjI5IDUyLjdMNDEuNSA4M0w1Mi43IDUyLjdMODMgNDEuNUw1Mi43IDMwLjI5TDQxLjUgMEwzMC4yOSAzMC4yOVpNNDEuNSAyLjg4TDMxLjA2IDMxLjA2TDIuODggNDEuNUwzMS4wNiA1MS45M0w0MS41IDgwLjExTDUxLjkzIDUxLjkzTDgwLjExIDQxLjVMNTEuOTMgMzEuMDZMNDEuNSAyLjg4WiIgZmlsbD0iIzIwMjAyNyIgZmlsbC1vcGFjaXR5PSIxLjAwMDAwMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=);"> </div>
+            <div class="stars__left-1" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUuMDAwMDAwIiBoZWlnaHQ9IjM1LjAwMDAwMCIgdmlld0JveD0iMCAwIDM1IDM1IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KCTxkZXNjPgoJCQlDcmVhdGVkIHdpdGggUGl4c28uCgk8L2Rlc2M+Cgk8ZGVmcy8+Cgk8cGF0aCBpZD0iU3RhciAzIiBkPSJNMTIuNzcgMTIuNzdMMCAxNy41TDEyLjc3IDIyLjIyTDE3LjUgMzVMMjIuMjIgMjIuMjJMMzUgMTcuNUwyMi4yMiAxMi43N0wxNy41IDBMMTIuNzcgMTIuNzdaTTE3LjUgMi44OEwxMy41NSAxMy41NUwyLjg4IDE3LjVMMTMuNTUgMjEuNDRMMTcuNSAzMi4xMUwyMS40NCAyMS40NEwzMi4xMSAxNy41TDIxLjQ0IDEzLjU1TDE3LjUgMi44OFoiIGZpbGw9IiMyMDIwMjciIGZpbGwtb3BhY2l0eT0iMS4wMDAwMDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4K);"> </div>
+            <div class="stars__left-2" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTcuMDAwMDAwIiBoZWlnaHQ9IjU3LjAwMDAwMCIgdmlld0JveD0iMCAwIDU3IDU3IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KCTxkZXNjPgoJCQlDcmVhdGVkIHdpdGggUGl4c28uCgk8L2Rlc2M+Cgk8ZGVmcy8+Cgk8cGF0aCBpZD0iU3RhciAyIiBkPSJNMjguNSAwTDIwLjggMjAuOEwwIDI4LjVMMjAuOCAzNi4xOUwyOC41IDU3TDM2LjE5IDM2LjE5TDU3IDI4LjVMMzYuMTkgMjAuOEwyOC41IDBaIiBmaWxsPSIjQkNFQzMwIiBmaWxsLW9wYWNpdHk9IjEuMDAwMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KCTxwYXRoIGlkPSJTdGFyIDIiIGQ9Ik0yMC44IDIwLjhMMCAyOC41TDIwLjggMzYuMTlMMjguNSA1N0wzNi4xOSAzNi4xOUw1NyAyOC41TDM2LjE5IDIwLjhMMjguNSAwTDIwLjggMjAuOFpNMjguNSAyLjg4TDIxLjU4IDIxLjU4TDIuODggMjguNUwyMS41OCAzNS40MUwyOC41IDU0LjExTDM1LjQxIDM1LjQxTDU0LjExIDI4LjVMMzUuNDEgMjEuNThMMjguNSAyLjg4WiIgZmlsbD0iIzIwMjAyNyIgZmlsbC1vcGFjaXR5PSIxLjAwMDAwMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=);"> </div>
+        </div>
+        
+        <h1 class="header__name">Добро пожаловать<br> на мой сайт мини-игр</h1>
+        <p class="header__par">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай <span class="header__span">«Поехали!»</span> и <span class="header__span">приступай</span>.</p>
+        <button class="header__button">Поехали!</button>
+ 
+    </header>
+    <div class="box">
+        <h2 class="box__name">Викторина</h2>
+        <svg class="box__stars" width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>
+                    Created with Pixso.
+            </desc>
+            <defs/>
+            <path id="Star" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+        </svg>
+        <h2 class="box__name">угадай число</h2>
+        <svg class="box__stars" width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>
+                    Created with Pixso.
+            </desc>
+            <defs/>
+            <path id="Star" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+        </svg>
+        <h2 class="box__name">Переверни текст</h2>
+        <svg class="box__stars" width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>
+                    Created with Pixso.
+            </desc>
+            <defs/>
+            <path id="Star" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+        </svg>
+        <h2 class="box__name">Простая арифметика</h2>
+        <svg class="box__stars" width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>
+                    Created with Pixso.
+            </desc>
+            <defs/>
+            <path id="Star" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+        </svg>
+        <h2 class="box__name">Камень, ножницы, бумага</h2>
+        <svg class="box__stars" width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>
+                    Created with Pixso.
+            </desc>
+            <defs/>
+            <path id="Star" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+        </svg>
+        <h2 class="box__name">Генератор случайных цветов</h2>
+        <svg class="box__stars" width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>
+                    Created with Pixso.
+            </desc>
+            <defs/>
+            <path id="Star" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+        </svg>
+    </div>
+
+    <section class="plays center">
+        <div class="stars">
+            <div class="stars-big__green " style="background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTY2LjA4MzAwOCIgaGVpZ2h0PSI1NjYuODQxNjE0IiB2aWV3Qm94PSIwIDAgNTY2LjA4MyA1NjYuODQyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KCTxkZXNjPgoJCQlDcmVhdGVkIHdpdGggUGl4c28uCgk8L2Rlc2M+Cgk8ZGVmcy8+Cgk8cGF0aCBpZD0iU3RhciAxIiBkPSJNMjE1LjM5IDE5Ni4xMkwyNi45IDEzNi4yNUwxNjQuMzMgMjc4LjQ3TDAgMzg4LjUyTDE5Ni44OCAzNjkuNzVMMTgwLjQ1IDU2Ni44NEwyODguNTMgNDAxLjIxTDQzMi4zOCA1MzYuOTNMMzcwLjI3IDM0OS4xNkw1NjYuMDggMzIxLjMyTDM4MC41NSAyNTIuODFMNDgwLjg2IDgyLjM2TDMxMS42MiAxODQuNjlMMjQwLjkxIDBMMjE1LjM5IDE5Ni4xMlpNMjQxLjM5IDQuMDVMMjE2LjIzIDE5Ny40M0wzMC4zNyAxMzguNEwxNjUuODggMjc4LjY0TDMuODQgMzg3LjE0TDE5Ny45NyAzNjguNjRMMTgxLjc4IDU2Mi45OEwyODguMzUgMzk5LjY2TDQzMC4xOSA1MzMuNDlMMzY4Ljk1IDM0OC4zNEw1NjIuMDIgMzIwLjg5TDM3OS4wOCAyNTMuMzNMNDc3Ljk5IDg1LjI2TDMxMS4xMiAxODYuMTdMMjQxLjM5IDQuMDVaIiBmaWxsPSIjQkNFQzMwIiBmaWxsLW9wYWNpdHk9IjEuMDAwMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==);"></div>
+            <div class="stars-small__left-1" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzEuMTk3MjY2IiBoZWlnaHQ9IjMxLjE5NzY5MyIgdmlld0JveD0iMCAwIDMxLjE5NzMgMzEuMTk3NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+Cgk8ZGVzYz4KCQkJQ3JlYXRlZCB3aXRoIFBpeHNvLgoJPC9kZXNjPgoJPGRlZnMvPgoJPHBhdGggaWQ9IlN0YXIgMTEiIGQ9Ik0xMS43OCAxMC45OEwwIDE0LjExTDEwLjk4IDE5LjQxTDE0LjExIDMxLjE5TDE5LjQxIDIwLjIxTDMxLjE5IDE3LjA4TDIwLjIxIDExLjc4TDE3LjA4IDBMMTEuNzggMTAuOThaTTE2LjgxIDIuODZMMTIuNDggMTEuODNMMi44NiAxNC4zOEwxMS44MyAxOC43TDE0LjM4IDI4LjMyTDE4LjcgMTkuMzZMMjguMzIgMTYuODFMMTkuMzYgMTIuNDhMMTYuODEgMi44NloiIGZpbGw9IiNCQ0VDMzAiIGZpbGwtb3BhY2l0eT0iMS4wMDAwMDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4K);">
+            <div class="stars-small__left-2" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTQuMzUxNTYyIiBoZWlnaHQ9IjU0LjM1MTcxNSIgdmlld0JveD0iMCAwIDU0LjM1MTYgNTQuMzUxNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+Cgk8ZGVzYz4KCQkJQ3JlYXRlZCB3aXRoIFBpeHNvLgoJPC9kZXNjPgoJPGRlZnMvPgoJPHBhdGggaWQ9IlN0YXIgMTIiIGQ9Ik0yMC41MyAxOS4xM0wwIDI0LjU4TDE5LjEzIDMzLjgxTDI0LjU4IDU0LjM1TDMzLjgxIDM1LjIxTDU0LjM1IDI5Ljc2TDM1LjIxIDIwLjUzTDI5Ljc2IDBMMjAuNTMgMTkuMTNaTTI5LjQ5IDIuODZMMjEuMjMgMTkuOThMMi44NiAyNC44NUwxOS45OCAzMy4xMUwyNC44NSA1MS40OEwzMy4xMSAzNC4zNkw1MS40OCAyOS40OUwzNC4zNiAyMS4yM0wyOS40OSAyLjg2WiIgZmlsbD0iI0JDRUMzMCIgZmlsbC1vcGFjaXR5PSIxLjAwMDAwMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=);"> </div>
+            </div>
+
+  
+        </div>
+        
+        <h1 class="plays__name">Об играх</h1>
+        <p class="plays__par">
+            В моей коллекции представлено 6 игр на разные темы.<br>
+            Игры несложные — в них может поиграть каждый.<br>
+            Все игры доступны для пользования.
+        </p>
+        <div class="containers">
+            <div class="container__box-1">
+                <div class="container container__small">
+                    <img class="container__img" src="images/small-play-card-1.png" alt="">
+                    <div class="container__content">
+                        <p class="content__number">Игра № 1</p>
+                        <h2 class="content__play">Угадай число</h2>
+                    </div>
+                </div>
+                <div class="container container__biggest">
+                    <img src="images/small-play-card-4.png" alt="">
+                    <div class="container__content">
+                        <p class="content__number">Игра № 4</p>
+                        <h2 class="content__play">Камень, ножницы, бумага</h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container__box-2">
+            <div class="container container__big">
+                <img src="images/small-play-card-2.png" alt="">
+                <div class="container__content">
+                    <p class="content__number">Игра № 2</p>
+                    <h2 class="content__play">Простая арифметика</h2>
+                </div>
+            </div>
+            <div class="container container__big">
+                <img src="images/small-play-card-5.png" alt="">
+                <div class="container__content">
+                    <p class="content__number">Игра № 5</p>
+                    <h2 class="content__play">Простая викторина</h2>
+                </div>
+            </div>
+           </div>
+
+
+            <div class="container__box-3">
+            <div class="container container__small">
+                <img src="images/small-play-card-3.png" alt="">
+                <div class="container__content">
+                    <p class="content__number">Игра № 3</p>
+                    <h2 class="content__play">Переверни текст</h2>
+                </div>
+            </div>
+            <div class="container container__biggest">
+                <img src="images/small-play-card-6.png" alt="">
+                <div class="container__content">
+                    <p class="content__number">Игра № 6</p>
+                    <h2 class="content__play">Генератор случайных цветов</h2>
+                </div>
+            </div>
+        </div>
+         </div>
+
+    </section>
+    
 </body>
-
 </html>
