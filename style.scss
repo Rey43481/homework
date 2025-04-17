@@ -13,10 +13,6 @@ body {
     padding-right: calc(50% - 600px);
 }
 
-/*.center__stars{
-    padding-left: calc(50% - (1440px - 25px)/2);
-    padding-right: calc(50% - (1440px - 25px)/2);
-}*/
 
 .stars {
     position: relative;
@@ -161,7 +157,6 @@ body {
     width: 1440px;
 
 
-
     .plays__name {
         color: white;
         padding-top: 94px;
@@ -243,6 +238,12 @@ body {
     }
 
 
+  
+
+}
+
+
+.containers__stars{
     .containers__stars_big {
         background-repeat: no-repeat;
         z-index: 1;
@@ -253,7 +254,7 @@ body {
         top: 77px;
         transform: rotate(-6.77deg);
     }
-
+    
     .containers__stars_left-1 {
         position: absolute;
         width: 32px;
@@ -262,7 +263,7 @@ body {
         top: 770px;
         transform: rotate(5.45deg);
     }
-
+    
     .containers__stars_left-2 {
         position: absolute;
         width: 54px;
@@ -271,5 +272,11 @@ body {
         top: 822px;
         transform: rotate(5.45deg);
     }
-
 }
+
+
+
+
+
+
+@import "phone";
