@@ -57,7 +57,7 @@ body {
 .header {
   position: relative;
   z-index: 1;
-  width: 1440px;
+  max-width: 1440px;
   height: 800px;
   background-color: #E1FF8F;
 }
@@ -70,8 +70,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 24;
-  width: 768px;
+  max-width: 768px;
   height: 156px;
 }
 .header .header__par {
@@ -338,4 +337,48 @@ body {
 .footer .footer__desc {
   font-size: 24px;
   font-weight: 600;
+}
+
+@media (max-width: 375px) {
+  .center {
+    padding-left: 54px;
+    padding-right: 54px;
+  }
+  .header__name {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    width: 262px;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__par {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 296px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .plays {
+    display: none;
+  }
+  .mini-games__header {
+    width: 250px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+  }
+  .mini-games__containers {
+    display: none;
+  }
+  .stars__group {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

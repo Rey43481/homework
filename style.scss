@@ -68,7 +68,7 @@ body {
 .header {
     position: relative;
     z-index: 1;
-    width: 1440px;
+    max-width: 1440px;
     height: 800px;
     background-color: #E1FF8F;
 
@@ -81,8 +81,7 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        gap: 24;
-        width: 768px;
+        max-width: 768px;
         height: 156px;
     }
 
