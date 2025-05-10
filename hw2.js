@@ -7,24 +7,71 @@ let userInput = prompt('Введите пароль');
 if (userInput === password) {
     alert('Пароль введен верно');
 } else {
-    alert('Пароль введен неправильно');
+    alert('Пароль введен не верно');
 }
 
 /*2 задание*/
 
-let c = 5
+let c = 11
 
-/*Задание 3*/
+if (c > 0 && c < 10) {
+    console.log("верно");
+} else {
+    console.log("неверно");
+}
 
-let d = 40
-let e = 110
 
-/*Задание 4*/
+/*3 задание*/
+let d = 40;
+let e = 101;
 
-let a = 2;
-let b = 3;
+if (d > 100 || e > 100) {
+    console.log("верно");
+}
+else {
+    console.log("неверно");
+}
 
-alert(a + b);
+
+/*4 задание*/
+
+let a = '2';
+let b = '3';
+
+alert(Number(a) + Number(b));
 
 /*Задание 5*/
+
+let monthNumber = 12;
+let season;
+if (monthNumber < 1 || monthNumber > 12 ){
+    console.log("Некорректный номер месяца. Введите число от 1 до 12.");
+}
+else {
+       
+    switch (monthNumber) {
+        case 12:
+        case 1:
+        case 2:
+            season = "зима";
+            break;
+        case 3:
+        case 4:
+        case 5:
+            season = "весна";
+            break;
+        case 6:
+        case 7:
+        case 8:
+            season = "лето";
+            break;
+        case 9:
+        case 10:
+        case 11:
+            season = "осень";
+            break;
+    }
+    
+    console.log(`Месяц с номером ${monthNumber} принадлежит к сезону «${season}»`);
+}
 
