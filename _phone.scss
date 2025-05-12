@@ -1,13 +1,13 @@
-@media (max-width: 375px){
+@media (max-width: 768px) {
 
-    .center{
+    .center {
         padding-left: 54px;
         padding-right: 54px;
     }
 
 
-    
-    .header__name{
+
+    .header__name {
         font-size: 40px;
         font-weight: 700;
         line-height: 49px;
@@ -19,7 +19,7 @@
         align-items: center;
     }
 
-    .header__par{
+    .header__par {
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
@@ -30,22 +30,23 @@
         justify-content: center;
         align-items: center;
     }
-    .plays{
+
+    .plays {
         display: none;
     }
 
-    .mini-games__header{
+    .mini-games__header {
         width: 250px;
         font-size: 40px;
         font-weight: 700;
         line-height: 49px;
     }
 
-    .mini-games__containers{
+    .mini-games__containers {
         display: none;
     }
 
-    .stars__group{
+    .stars__group {
         display: none;
     }
 
