@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(188, 236, 48);
+    background-color: #E1FF8F;
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -21,7 +21,7 @@ body {
     z-index: -1;
 
 
-    .stars__group {
+    &__group {
         position: absolute;
         width: 1074px;
         height: 1130.46px;
@@ -30,7 +30,7 @@ body {
         background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA3NC41MDAwMDAiIGhlaWdodD0iMTEzMC45NTczOTciIHZpZXdCb3g9IjAgMCAxMDc0LjUgMTEzMC45NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+Cgk8ZGVzYz4KCQkJQ3JlYXRlZCB3aXRoIFBpeHNvLgoJPC9kZXNjPgoJPGRlZnMvPgoJPHBhdGggaWQ9IlZlY3RvciA0NzgwIiBkPSJNMjQxLjI5IDMyMy40NUwzMTcuNSA0MTEuODNMMC41IDQ4Ni40NSIgc3Ryb2tlPSIjMjAyMDI3IiBzdHJva2Utb3BhY2l0eT0iMS4wMDAwMDAiIHN0cm9rZS13aWR0aD0iMS4wMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgoJPHBhdGggaWQ9IlZlY3RvciIgZD0iTTcwOC4xOCAzODEuODZDNzE3LjYxIDM4NC40OCA5ODAuMDEgNDk1LjQyIDk4MC4wMSA0OTUuNDJMNzAxLjYxIDUyNS4zTDg3Ny40OSA3NTEuMTFMNjI5LjUzIDU5Ni44Nkw2MDQuMjcgODU4LjMxTDUzNC4zOCA1ODIuOThMMzAxLjQzIDcxMy45NUw0NjEuOSA1MjEuNzJMMTc3LjEzIDUwOC43NEw0NDQuOCA0MjguNDhMMjQ1LjkgMTk5LjQxTDUyNS41MyAzMzAuOTZMNTg5LjUzIDc3LjE0TDYxOC4yNiAzMzEuNUw4NzIuOTggMTU2LjA1TDcwOC4xOCAzODEuODZaIiBmaWxsPSIjQkNFQzMwIiBmaWxsLW9wYWNpdHk9IjEuMDAwMDAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz4KCTxwYXRoIGlkPSJWZWN0b3IiIGQ9Ik05ODAuMDEgNDk1LjQyTDcwMS42MSA1MjUuM0w4NzcuNDkgNzUxLjExTDYyOS41MyA1OTYuODZMNjA0LjI3IDg1OC4zMUw1MzQuMzggNTgyLjk4TDMwMS40MyA3MTMuOTVMNDYxLjkgNTIxLjcyTDE3Ny4xMyA1MDguNzRMNDQ0LjggNDI4LjQ4TDI0NS45IDE5OS40MUw1MjUuNTMgMzMwLjk2TDU4OS41MyA3Ny4xNEw2MTguMjYgMzMxLjVMODcyLjk4IDE1Ni4wNUw3MDguMTggMzgxLjg2QzcxNy42MSAzODQuNDggOTgwLjAxIDQ5NS40MiA5ODAuMDEgNDk1LjQyWiIgc3Ryb2tlPSIjMjAyMDI3IiBzdHJva2Utb3BhY2l0eT0iMS4wMDAwMDAiIHN0cm9rZS13aWR0aD0iMS4wMDAwMDAiLz4KCTxwYXRoIGlkPSJWZWN0b3IgNDc4MSIgZD0iTTIzMS41OCA1ODcuNDVMMzU1LjUgNTg3LjQ1TDIxMy41IDc2Ni40NSIgc3Ryb2tlPSIjMjAyMDI3IiBzdHJva2Utb3BhY2l0eT0iMS4wMDAwMDAiIHN0cm9rZS13aWR0aD0iMS4wMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgoJPHBhdGggaWQ9IlZlY3RvciA0NzgyIiBkPSJNMzcxLjUgNzkxLjVMNDg1LjI2IDcxMi40NUw1OTEuMzggMTEzMC40NiIgc3Ryb2tlPSIjMjAyMDI3IiBzdHJva2Utb3BhY2l0eT0iMS4wMDAwMDAiIHN0cm9rZS13aWR0aD0iMS4wMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgoJPHBhdGggaWQ9IlZlY3RvciA0Nzg4IiBkPSJNNDQ5LjY1IDgwMS40NUwzOTMuNSA4NjAuMjJMNDczLjUgOTI3LjQ1TDQ0OS42NSA4MDEuNDVaIiBmaWxsPSIjQkNFQzMwIiBmaWxsLW9wYWNpdHk9IjEuMDAwMDAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz4KCTxwYXRoIGlkPSJWZWN0b3IgNDc4OCIgZD0iTTQ0OS42NSA4MDEuNDVMNDczLjUgOTI3LjQ1TDM5My41IDg2MC4yMkw0NDkuNjUgODAxLjQ1WiIgc3Ryb2tlPSIjMjAyMDI3IiBzdHJva2Utb3BhY2l0eT0iMS4wMDAwMDAiIHN0cm9rZS13aWR0aD0iMS4wMDAwMDAiLz4KCTxwYXRoIGlkPSJWZWN0b3IgNDc5MSIgZD0iTTQ5MS41IDk5Ni40NUw1MjUuNSAxMTIwLjQ2IiBzdHJva2U9IiMyMDIwMjciIHN0cm9rZS1vcGFjaXR5PSIxLjAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIxLjAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=);
     }
 
-    .stars__right-2 {
+    &__right-2 {
 
         position: absolute;
         width: 83px;
@@ -40,7 +40,7 @@ body {
         background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODMuMDAwMDAwIiBoZWlnaHQ9IjgzLjAwMDAwMCIgdmlld0JveD0iMCAwIDgzIDgzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KCTxkZXNjPgoJCQlDcmVhdGVkIHdpdGggUGl4c28uCgk8L2Rlc2M+Cgk8ZGVmcy8+Cgk8cGF0aCBpZD0iU3RhciA0IiBkPSJNMzAuMjkgMzAuMjlMMCA0MS41TDMwLjI5IDUyLjdMNDEuNSA4M0w1Mi43IDUyLjdMODMgNDEuNUw1Mi43IDMwLjI5TDQxLjUgMEwzMC4yOSAzMC4yOVpNNDEuNSAyLjg4TDMxLjA2IDMxLjA2TDIuODggNDEuNUwzMS4wNiA1MS45M0w0MS41IDgwLjExTDUxLjkzIDUxLjkzTDgwLjExIDQxLjVMNTEuOTMgMzEuMDZMNDEuNSAyLjg4WiIgZmlsbD0iIzIwMjAyNyIgZmlsbC1vcGFjaXR5PSIxLjAwMDAwMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=);
     }
 
-    .stars__right-1 {
+    &__right-1 {
         position: absolute;
         width: 37px;
         height: 37px;
@@ -49,7 +49,7 @@ body {
         background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzcuMDAwMDAwIiBoZWlnaHQ9IjM3LjAwMDAwMCIgdmlld0JveD0iMCAwIDM3IDM3IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KCTxkZXNjPgoJCQlDcmVhdGVkIHdpdGggUGl4c28uCgk8L2Rlc2M+Cgk8ZGVmcy8+Cgk8cGF0aCBpZD0iU3RhciA1IiBkPSJNMTguNSAwTDEzLjUgMTMuNUwwIDE4LjVMMTMuNSAyMy40OUwxOC41IDM3TDIzLjQ5IDIzLjQ5TDM3IDE4LjVMMjMuNDkgMTMuNUwxOC41IDBaIiBmaWxsPSIjQkNFQzMwIiBmaWxsLW9wYWNpdHk9IjEuMDAwMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KCTxwYXRoIGlkPSJTdGFyIDUiIGQ9Ik0xMy41IDEzLjVMMCAxOC41TDEzLjUgMjMuNDlMMTguNSAzN0wyMy40OSAyMy40OUwzNyAxOC41TDIzLjQ5IDEzLjVMMTguNSAwTDEzLjUgMTMuNVpNMTguNSAyLjg4TDE0LjI4IDE0LjI4TDIuODggMTguNUwxNC4yOCAyMi43MUwxOC41IDM0LjExTDIyLjcxIDIyLjcxTDM0LjExIDE4LjVMMjIuNzEgMTQuMjhMMTguNSAyLjg4WiIgZmlsbD0iIzIwMjAyNyIgZmlsbC1vcGFjaXR5PSIxLjAwMDAwMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=);
     }
 
-    .stars__left-1 {
+    &__left-1 {
         position: absolute;
         width: 35px;
         height: 35px;
@@ -58,7 +58,7 @@ body {
         background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUuMDAwMDAwIiBoZWlnaHQ9IjM1LjAwMDAwMCIgdmlld0JveD0iMCAwIDM1IDM1IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KCTxkZXNjPgoJCQlDcmVhdGVkIHdpdGggUGl4c28uCgk8L2Rlc2M+Cgk8ZGVmcy8+Cgk8cGF0aCBpZD0iU3RhciAzIiBkPSJNMTIuNzcgMTIuNzdMMCAxNy41TDEyLjc3IDIyLjIyTDE3LjUgMzVMMjIuMjIgMjIuMjJMMzUgMTcuNUwyMi4yMiAxMi43N0wxNy41IDBMMTIuNzcgMTIuNzdaTTE3LjUgMi44OEwxMy41NSAxMy41NUwyLjg4IDE3LjVMMTMuNTUgMjEuNDRMMTcuNSAzMi4xMUwyMS40NCAyMS40NEwzMi4xMSAxNy41TDIxLjQ0IDEzLjU1TDE3LjUgMi44OFoiIGZpbGw9IiMyMDIwMjciIGZpbGwtb3BhY2l0eT0iMS4wMDAwMDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4K);
     }
 
-    .stars__left-2 {
+    &__left-2 {
         position: absolute;
         width: 57px;
         height: 57px;
@@ -75,7 +75,7 @@ body {
     position: relative;
     z-index: 1;
     max-width: 1440px;
-    height: 800px;
+    height: 710px;
     background-color: #E1FF8F;
 
     &__name {
@@ -135,6 +135,8 @@ body {
 
 
 .box {
+    position: absolute;
+    z-index: 2;
     width: 3220px;
     height: 90px;
     box-sizing: border-box;
@@ -147,13 +149,13 @@ body {
     justify-content: flex-start;
     align-items: center;
 
-    .box__name {
+    &__name {
         font-size: 30px;
         font-weight: 700;
         text-transform: uppercase;
     }
 
-    .box__stars {
+    &__stars {
         position: static;
         width: 36px;
         height: 36px;
@@ -164,6 +166,7 @@ body {
 
 
 .plays {
+    margin-top: 94px;
     position: relative;
     z-index: 1;
     background-color: black;
@@ -199,28 +202,28 @@ body {
 
 .containers {
 
-    .containers__all {
+    &__all {
         background-color: #fff;
         width: 378px;
         border-radius: 30px;
 
     }
 
-    .containers__small {
+    &__small {
         height: 473px;
         margin-bottom: 32px;
     }
 
-    .containers__big {
+    &__big {
         height: 512px;
         margin-bottom: 32px;
     }
 
-    .containers__biggest {
+    &__biggest {
         height: 551px;
     }
 
-    .containers__content {
+    &__content {
         width: 306px;
         height: 91px;
         padding-top: 32px;
@@ -230,13 +233,13 @@ body {
     }
 
 
-    .containers__content_play {
+    &__content_play {
         font-size: 32px;
         font-weight: 700;
         line-height: 39px;
     }
 
-    .containers__content_number {
+    &__content_number {
         margin-bottom: 16px;
         width: 80px;
         height: 18px;
@@ -333,7 +336,7 @@ body {
     position: relative;
     z-index: 1;
 
-    .mini-games__header {
+    &__header {
         color: rgb(255, 255, 255);
         font-size: 64px;
         font-weight: 700;
@@ -341,7 +344,7 @@ body {
         padding-top: 64px;
     }
 
-    .mini-games__containers_all {
+    &__containers_all {
         background-color: rgb(255, 255, 255);
         height: 500px;
         margin-bottom: 32px;
@@ -349,13 +352,13 @@ body {
         border-radius: 30px;
     }
 
-    .mini-games__containers_content {
+    &__containers_content {
         width: 504px;
         height: 249px;
         margin: 48px;
     }
 
-    .mini-games__stars_up_left{
+    &__stars_up_left{
         position: absolute;
         left: 1158px;
         top: 93px;
@@ -363,7 +366,7 @@ body {
         height: 35.15px;
     }
 
-    .mini-games__stars_up_right{
+    &__stars_up_right{
         position: absolute;
         width: 68.86px;
         height: 68.86px;
@@ -372,7 +375,7 @@ body {
 
     }
 
-    .mini-games__stars_down_left{
+    &__stars_down_left{
         position: absolute;
         width: 41px;
         height: 41px;
@@ -380,7 +383,7 @@ body {
         top: 3414px;
     }
 
-    .mini-games__stars_down_right{
+    &__stars_down_right{
         position: absolute;
         width: 69px;
         height: 69px;
@@ -400,7 +403,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    .footer__desc {
+    &__desc {
         font-size: 24px;
         font-weight: 600;
     }
