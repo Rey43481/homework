@@ -491,6 +491,12 @@ body {
     height: 35px;
     background-size: 100%;
   }
+  .containers__stars {
+    display: none;
+  }
+  .mini-games__stars {
+    display: none;
+  }
   .box {
     gap: 27px;
     height: 57px;
