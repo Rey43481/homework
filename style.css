@@ -358,6 +358,7 @@ body {
   }
   .header {
     justify-items: center;
+    height: 650px;
   }
   .header__name {
     padding-top: 147px;
