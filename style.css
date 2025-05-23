@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #E1FF8F;
+  background-color: #202027;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -63,7 +63,6 @@ body {
 .header {
   position: relative;
   z-index: 1;
-  max-width: 1440px;
   height: 710px;
   background-color: #E1FF8F;
 }
@@ -117,6 +116,10 @@ body {
   border-color: #000000;
 }
 
+.box-overflow {
+  overflow-x: hidden;
+}
+
 .box {
   position: absolute;
   z-index: 2;
@@ -149,7 +152,6 @@ body {
   position: relative;
   z-index: 1;
   background-color: black;
-  width: 1440px;
 }
 .plays .plays__name {
   color: white;
@@ -283,7 +285,7 @@ body {
 }
 
 .mini-games {
-  background-color: rgb(0, 0, 0);
+  background-color: #202027;
   padding-bottom: 144px;
   position: relative;
   z-index: 1;
@@ -490,6 +492,12 @@ body {
     width: 35px;
     height: 35px;
     background-size: 100%;
+  }
+  .containers__stars {
+    display: none;
+  }
+  .mini-games__stars {
+    display: none;
   }
   .box {
     gap: 27px;

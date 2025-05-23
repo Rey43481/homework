@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #E1FF8F;
+    background-color: #202027;
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -74,7 +74,6 @@ body {
 .header {
     position: relative;
     z-index: 1;
-    max-width: 1440px;
     height: 710px;
     background-color: #E1FF8F;
 
@@ -132,7 +131,9 @@ body {
     }
 }
 
-
+.box-overflow {
+    overflow-x: hidden;
+}
 
 .box {
     position: absolute;
@@ -170,7 +171,6 @@ body {
     position: relative;
     z-index: 1;
     background-color: black;
-    width: 1440px;
 
 
     .plays__name {
@@ -289,7 +289,7 @@ body {
         transform: rotate(5.45deg);
     }
 
-    
+
 }
 
 .containers__content_head {
@@ -324,14 +324,14 @@ body {
     background: rgb(32, 32, 39);
 }
 
-.containers__content_button:hover{
+.containers__content_button:hover {
     background: #ffffff;
     color: #000000;
     border-color: #000000;
 }
 
 .mini-games {
-    background-color: rgb(0, 0, 0);
+    background-color: #202027;
     padding-bottom: 144px;
     position: relative;
     z-index: 1;
@@ -358,7 +358,7 @@ body {
         margin: 48px;
     }
 
-    &__stars_up_left{
+    &__stars_up_left {
         position: absolute;
         left: 1158px;
         top: 93px;
@@ -366,7 +366,7 @@ body {
         height: 35.15px;
     }
 
-    &__stars_up_right{
+    &__stars_up_right {
         position: absolute;
         width: 68.86px;
         height: 68.86px;
@@ -375,7 +375,7 @@ body {
 
     }
 
-    &__stars_down_left{
+    &__stars_down_left {
         position: absolute;
         width: 41px;
         height: 41px;
@@ -383,20 +383,20 @@ body {
         top: 3414px;
     }
 
-    &__stars_down_right{
+    &__stars_down_right {
         position: absolute;
         width: 69px;
         height: 69px;
         left: 1200px;
         top: 3366px;
     }
-  
+
 
 
 }
 
 
-.footer{
+.footer {
     height: 150px;
     background-color: rgb(189, 237, 53);
     display: flex;
@@ -407,7 +407,7 @@ body {
         font-size: 24px;
         font-weight: 600;
     }
-    
+
 }
 
 
