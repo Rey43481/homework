@@ -7,6 +7,7 @@
 
     .header {
         justify-items: center;
+        height: 650px;
     }
 
     .header__name {
@@ -168,6 +169,14 @@
         width: 35px;
         height: 35px;
         background-size: 100%;
+    }
+
+    .containers__stars {
+        display: none;
+    }
+
+    .mini-games__stars {
+        display: none;
     }
 
     .box {
